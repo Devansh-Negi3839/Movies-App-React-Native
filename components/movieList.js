@@ -34,7 +34,10 @@ export default function MovieList({title, hideSeeAll, data}) {
                 return (
                     <TouchableWithoutFeedback 
                       key={index} 
-                      onPress={()=> navigation.push('Movie', item)}
+                      onPress={()=> navigation.push('Movie', item)} 
+                        // onPress={() => navigation.push('Movie', item)}: 
+                        // This sets up an onPress event handler that navigates to the "Movie" screen when the item is pressed. 
+                        // It uses the push method of the navigation object provided by the useNavigation hook.                      
                     >
                         <View className="space-y-1 mr-4">
                             <Image 

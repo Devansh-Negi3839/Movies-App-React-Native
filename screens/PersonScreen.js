@@ -46,7 +46,7 @@ export default function PersonScreen() {
 
   return (
     <ScrollView 
-        className="flex-1 bg-neutral-900" 
+        className="flex-1 bg-neutral-900"
         contentContainerStyle={{paddingBottom: 20}}>
         {/* back button */}
         <SafeAreaView 
